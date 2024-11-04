@@ -1,0 +1,14 @@
+.imageviewer {
+    cursor: pointer;
+}
+
+.viewer-toolbar > li {
+    height: 30px;
+    width: 30px;
+    margin-bottom: -3px;
+    margin-top: -3px;
+}
+
+.viewer-toolbar > li:before {
+    margin: 5px;
+}

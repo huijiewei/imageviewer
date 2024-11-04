@@ -1,0 +1,37 @@
+{
+  "name": "huijiewei/yii2-imageviewer",
+  "description": "JavaScript image viewer.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "homepage": "https://github.com/huijiewei/yii2-imageviewer.git",
+  "keywords": [
+    "yii2",
+    "extension",
+    "imageviewer",
+    "assets"
+  ],
+  "authors": [
+    {
+      "name": "Huijie Wei",
+      "email": "huijiewei@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.2",
+    "yiisoft/yii2": "^2.0",
+    "npm-asset/viewerjs": "^1.11.6",
+    "npm-asset/jquery-viewer": "^1.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "huijiewei\\imageviewer\\": "src"
+    }
+  },
+  "repositories": {
+    "asset": {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  }
+}
