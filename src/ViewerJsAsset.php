@@ -4,9 +4,9 @@ namespace huijiewei\imageviewer;
 
 use yii\web\AssetBundle;
 
-class ViewJsAsset extends AssetBundle
+class ViewerJsAsset extends AssetBundle
 {
-    public $sourcePath = '@npm/viewjs/dist';
+    public $sourcePath = '@npm/viewerjs/dist';
 
     public $css = [
         'viewer.min.css'

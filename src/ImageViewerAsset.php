@@ -14,7 +14,7 @@ class ImageViewerAsset extends AssetBundle
 
     public $depends = [
         'yii\web\JqueryAsset',
-        ViewJsAsset::class,
+        ViewerJsAsset::class,
         JqueryViewerAsset::class,
     ];
 }
